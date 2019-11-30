@@ -65,3 +65,31 @@ background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, F
 .search button:active {
   transform: scale(0.99);
 }
+
+#movies{
+}
+
+.movies-list{
+  /* margin: 0 auto; */
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movies-list li{
+  margin:  10px 20px;
+  list-style: none;
+  text-align: center;
+}
+
+
+
+.overview-movie,h2{
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 15px 20px;
+}
+
+
