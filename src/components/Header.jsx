@@ -7,9 +7,9 @@ class Header extends React.Component{
                 <nav>
                     <span className="brand">Movie Show App</span>
                 </nav>
-                    <div className="input">
-                        <form action="">
-                        <input type="text" placeholder="Avanger End Game"/>
+                    <div >
+                        <form action="" className="search">
+                        <input type="text" className="custom-input" placeholder="Ex : Avanger End Game"/>
                         <button type="submit">Search</button>
                         </form>
                     </div>

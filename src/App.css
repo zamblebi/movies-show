@@ -4,9 +4,64 @@ body{
 }
 
 #header{
-
+  background: #c94b4b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 350px;
 }
 
 .brand{
+  padding: 15px 5px;
   font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.search{
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.custom-input{
+  padding: 11px 20px;
+  outline: none;
+  font-weight: 700;
+  font-size: 15pt;
+}
+
+
+
+
+.search button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.search button:hover,
+.search button:focus {
+  background: #0053ba;
+}
+
+.search button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.search button:active {
+  transform: scale(0.99);
 }
